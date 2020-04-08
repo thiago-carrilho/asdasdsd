@@ -1,0 +1,116 @@
+.no-margin-bottom {
+  margin-bottom: 0 !important;
+}
+.footer {
+  background-color: #b8ecff;
+}
+.footer-img {
+  border-radius: 100%;
+  width: 100px;
+}
+.footer-copyright {
+  background-color: #a9daed;
+}
+.sobre-nos-text {
+  font-size: 1.5em;
+}
+.strong {
+  font-weight: 700;
+}
+.link-footer {
+  font-size: 1.35em;
+}
+.whatsapp-floating-bubble {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+.whatsapp-floating-icon {
+  margin-top: 16px;
+}
+.nav {
+  height: 100%;
+  background-color: #ffffff;
+  color: #000000;
+}
+.carousel-size {
+  height: 650px;
+}
+.img-carousel {
+  height: 150%;
+  width: 100%;
+  -webkit-transform: translate(-0%, -25%);
+  -ms-transform: translate(-0%, -25%);
+  transform: translate(-0%, -25%);
+}
+.main-text {
+  font-size: 1.25rem;
+  font-weight: 400;
+  display: inline;
+}
+.card-title {
+  font-size: 1.15em;
+}
+.text-carousel {
+  color: #f1ffff;
+  text-shadow: 1px 1.25px #000;
+  display: block !important;
+}
+.btn-carousel {
+  color: #fff;
+  background-color: #00008b;
+  border-color: #00008b;
+}
+.text-contact{
+  color: #0065D1;
+}
+.footer-a {
+  color: #005bbd;
+}
+.footer-a.active {
+  color: #004085;
+}
+.footer-text{
+  font-size: 1rem;
+  display: inline;
+  font-weight: 400;
+}
+@media (min-width: 768px) {
+  .col-md-border:not(:last-child) {
+    border-right: 1px solid #ebebeb;
+  }
+  .col-md-border + .col-md-border {
+    border-left: 1px solid #ebebeb;
+    margin-left: -1px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* CSS rules here */
+  .img-carousel {
+    height: 100%;
+    width: 100%;
+    -webkit-transform: translate(-0%, 0%);
+    -ms-transform: translate(-0%, 0%);
+    transform: translate(-0%, 0%);
+  }
+  .carousel-size {
+    height: 400px;
+  }
+  .container-footer-img{
+    display: flex;
+    justify-content: center;
+  }
+  .footer-a{
+    margin-bottom: .5rem;
+    color: #005bbd;
+  }
+}
